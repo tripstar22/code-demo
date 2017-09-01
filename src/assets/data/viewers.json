@@ -1,0 +1,38 @@
+[
+    {
+        "season": 1,
+        "viewers": 5.4
+    },
+    {
+        "season": 2,
+        "viewers": 8.0
+    },
+    {
+        "season": 3,
+        "viewers": 8.3
+    },
+    {
+        "season": 4,
+        "viewers": 8.0
+    },
+    {
+        "season": 5,
+        "viewers": 9.0
+    },
+    {
+        "season": 6,
+        "viewers": 7.8
+    },
+    {
+        "season": 7,
+        "viewers": 7.7
+    },
+    {
+        "season": 8,
+        "viewers": 6.5
+    },
+    {
+        "season": 9,
+        "viewers": 5.1
+    }
+]

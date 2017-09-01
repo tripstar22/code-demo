@@ -1,1 +1,48 @@
-/* You can add global styles to this file, and also import other style files */
+/* Add angular material theme. Requirement for angular material */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+/* import Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+}
+
+html, body  { 
+	height: 100%;
+	width: 100%;
+}
+
+body {
+    background: #eee;
+    font-size: 16px;
+    padding: 0 0 60px;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#wrapGraph svg {
+    min-height: 520px;
+}
+
+#wrapGraph rect.bar {
+    fill: #5C6BC0;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+#wrapGraph rect.bar:hover {
+    fill: #1A237E;
+}
+
+svg text {
+    color: #333;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
+}
